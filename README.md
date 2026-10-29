@@ -4,10 +4,6 @@ A minimal, Python-native implementation using [CrewAI](https://github.com/crewAI
 
 This project demonstrates how to set up an AI agent powered by LLMs (such as Google Gemini or Ollama) to generate structured content directly through Python code.
 
-## 📌 Workflow Diagram
-
-![CrewAI Workflow](screenshot.png)
-
 ## 🚀 How It Works
 
 1. **Agent Definition (`Content Writer Agent`)**:
@@ -54,7 +50,7 @@ Create a `.env` file in the root directory:
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-## 💻 Code Example (`main.py`)
+## 💻 Code Example (`travel_planner_agent.py`)
 
 ```python
 import os
@@ -103,5 +99,5 @@ if __name__ == "__main__":
 ## 🏃 Running the Script
 
 ```bash
-python main.py
+python travel_planner_agent.py
 ```
